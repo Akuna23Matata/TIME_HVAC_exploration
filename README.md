@@ -40,7 +40,7 @@ Two experiment protocols ship in this repo.
 
 | File | Role |
 |------|------|
-| `run_exploration.py` | **TIME** — exploration MPPI runner with daily GP retraining during week 2. |
+| `run_exploration.py` | **TIME** — exploration MPPI runner. |
 | `run_clue_baseline.py` | Rule-based + standard MPPI ("CLUE") baseline. |
 | `run_random_baseline.py` | Random-action baseline. |
 
@@ -57,7 +57,7 @@ python experiments/three_week/run_exploration.py --summer
 
 | File | Role |
 |------|------|
-| `run_exploration.py` | Ten-week runner: weekdays run standard MPPI control, weekends do information-gain exploration. |
+| `run_exploration.py` | Ten-week TIME runner. |
 | `run_clue_baseline.py` | Ten-week CLUE baseline. |
 | `run_random_baseline.py` | Ten-week random baseline. |
 
